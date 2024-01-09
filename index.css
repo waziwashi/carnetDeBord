@@ -142,7 +142,7 @@ h1.séance2 {
 }
 div.texte2 {
 	position: relative;
-	width: 50%;
+	width: 50vw;
 }
 p.texte2 {
 	position: absolute;
