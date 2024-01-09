@@ -78,6 +78,7 @@ p.musique {
 .groupe {
 	display: inline-flex;
 	margin: 0 0 3vw 0;
+	width: 100vw;
 }
 
 div.séance1 {
@@ -274,9 +275,9 @@ p.littératube {
 	color: #00DAE1;
 }
 iframe.littératube {
-	margin: 0 5vw;
-	width: 40vw;
-	height: 22vw;
+	margin: 0 1.5vw;
+	width: 30vw;
+	height: 17vw;
 }
 iframe.waziwashi {
 	width: 40vw;
