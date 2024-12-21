@@ -1,7 +1,10 @@
 body {
 	padding: 0;
 	margin: 0;
-	background-color: #488535;
+	background-color: #303841;
+	background-image: url('img/sublimeTxt.png');
+	background-attachment: fixed;
+	background-size: 100%;
 }
 #bandeau {
 	display: flex;
@@ -9,17 +12,17 @@ body {
 	margin: 0;
 	padding: 0;
 	width: 100%;
-	background-color: rgb(43, 51, 41);
+	background-color: #403A2F;
 }
 .carnet {
 	margin: 0;
-	color: #488535;
+	color: #95866C;
 	font-size: 12vw;
 	font-family: 'Oswald';	
 }
 .nom {
 	margin-top: 5vw;
-	color: #488535;
+	color: #95866C;
 	font-family: 'Oswald';
 	font-size: 1vw;
 	writing-mode: vertical-rl;
@@ -27,11 +30,11 @@ body {
 }
 hr {
   border: none;
-  border-top: 3px double #488535;
+  border-top: 3px double #95866C;
   margin: 0 auto;
   padding: 0 0 1vw 0;
-  color: #488535;
-  background-color: rgb(43, 51, 41);
+  color: #95866C;
+  background-color: #403A2F;
   overflow: visible;
   text-align: center;
   height: 2vw;
@@ -44,24 +47,30 @@ span.SEM3 {
 	margin: 0;
 	width: 40vw;
 	height: 50vh;
+	opacity: 80%;
 	text-align: center;
 	background-image: url('img/background.png');
 	background-size: 100%;
+	transition-duration: 0.5s;
 }
 span.SEM3:hover {
-	opacity: 50%;
+	background-size: 115%;
+	transition-duration: 0.5s;
 }
 span.SEM5 {
 	display: inline-block;
 	margin: 0;
 	width: 40vw;
 	height: 50vh;
+	opacity: 80%;
 	text-align: center;
 	background-image: url('img/AlignementsXXIsiècle.jpg');
 	background-size: 100%;
+	transition-duration: 0.5s;
 }
 span.SEM5:hover {
-	opacity: 50%;
+	background-size: 115%;
+	transition-duration: 0.5s;
 }
 img {
 	width: 14vh;
