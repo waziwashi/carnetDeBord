@@ -1,0 +1,421 @@
+body {
+	margin: 0;
+	padding: 0;
+	background-image: url('img/background.png');
+	background-attachment: fixed;
+	background-size: 100%;
+}
+body::-webkit-scrollbar {
+  display: none;
+}
+#bandeau {
+	display: flex;
+	justify-content: center;	
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	background-color: rgb(43, 51, 41);
+}
+.carnet {
+	margin: 0;
+	color: #488535;
+	font-size: 12vw;
+	font-family: 'Oswald';	
+}
+.nom {
+	margin-top: 5vw;
+	color: #488535;
+	font-family: 'Oswald';
+	font-size: 1vw;
+	writing-mode: vertical-rl;
+	text-orientation: mixed;
+}
+hr {
+  border: none;
+  border-top: 3px double #488535;
+  margin: 0 auto;
+  padding: 0 0 1vw 0;
+  color: #488535;
+  background-color: rgb(43, 51, 41);
+  overflow: visible;
+  text-align: center;
+  height: 2vw;
+}
+div.séances {
+	margin: 0;
+	padding: 0;
+	font-family: 'Oswald';
+	font-size: 3vw;
+	display: inline-block;
+	width: 100%;
+	height: 25%;
+}
+p.date {
+	margin: 0;
+	font-family: 'Orbitron', sans-serif;
+	font-size: 25%;
+}
+iframe.musique {
+	overflow: hidden;
+	display: block;
+	margin: 0 auto;
+	padding: 0;
+	width: 30vw;
+	height: 10vw;
+}
+p.musique {
+	margin: 2vw auto 0 auto;
+	width: 80%;
+	font-size: 1.5vw;
+	text-align: center;
+	color: white;
+	-webkit-text-stroke: 0.08vw black; 
+}
+.groupe {
+	display: inline-flex;
+	margin: 0 0 3vw 0;
+}
+
+div.séance1 {
+	background-color: rgb(43, 43, 171, .9);
+	margin: 0;
+	padding: 0;
+}
+h1.séance1 {
+	margin: 0;
+	color: #EBC000;
+}
+div.texte1 {
+	position: relative;
+	width: 50%;
+}
+p.texte1 {
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	margin: 0 1vw;
+	visibility: hidden;
+	opacity: 0;
+	text-align: justify;
+	font-family: Georgia, serif;
+	font-size: 2.175vw;
+}
+div.texte1:hover img.texte1 {
+	transition-duration: 500ms;
+	webkit-filter: blur(4px);
+	filter: blur(4px);
+}
+div.texte1:hover p.texte1 {
+	transition-duration: 500ms;
+	visibility: visible;
+	opacity: 1;
+}
+img.porteDeVanves {
+	margin: auto;
+	height: 40vw;
+}
+img.pubSoho {
+	margin: 0 25%;
+	width: 50%;
+}
+p.texte1suite {
+	color: #EBC000;
+	text-align: justify;
+	font-family: Georgia, serif;
+	margin: 0 3vw;
+	font-size: 2.175vw;
+}
+
+div.séance2 {
+	background-color: rgb(235, 192, 0, .9);
+}
+h1.séance2 {
+	margin: 0;
+	text-align: right;
+	color: rgb(43, 43, 171);
+}
+div.texte2 {
+	position: relative;
+	width: 50%;
+}
+p.texte2 {
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	margin: 0 1vw;
+	visibility: visible;
+	opacity: 0;
+	text-align: justify;
+	font-family: Georgia, serif;
+	font-size: 2.11vw;
+}
+div.texte2:hover img.texte2 {
+	transition-duration: 500ms;
+	webkit-filter: blur(4px);
+	filter: blur(4px);
+}
+div.texte2:hover p.texte2 {
+	transition-duration: 500ms;
+	visibility: visible;
+	opacity: 1;
+}
+p.texte2suite {
+	text-align: justify;
+	font-family: Georgia, serif;
+	font-size: 2.11vw;
+	margin: 0 3vw;
+	color: rgb(43, 43, 171);
+}
+img.placeVendome {
+	margin: auto;
+	height: 40vw;
+}
+
+div.séance3 {
+	background-color: rgb(82, 50, 49, .9);
+}
+h1.séance3 {
+	margin: 0;
+	color: #F5C4A2;
+}
+p.texte3 {
+	text-align: justify;
+	font-family: Georgia, serif;
+	font-size: 2.11vw;
+	margin: 0 2vw;
+	color: #F5C4A2;
+}
+
+div.séance6 {
+	background-color: rgb(84, 92, 55, .9);
+}
+h1.séance6 {
+	margin: 0;
+	text-align: right;
+	color: #BEF500;
+}
+img.texte6 {
+	margin: 0 25%;
+	width: 50%;
+}
+img.ferme {
+	width: 40vw;
+	margin: 0 5vw;
+}
+img.chemin {
+	width: 40vw;
+	margin: 0 5vw;
+}
+p.lieux {
+	width: 46vw;
+	margin: 0 2vw;
+	text-align: justify;
+	font-family: Georgia, serif;
+	font-size: 2.11vw;
+	color: #BEF500;
+}
+
+div.séance7 {
+	background-color: rgb(43, 70, 71, .9);
+}
+h1.séance7 {
+	color: #00DAE1;
+	margin: 0;
+}
+img.gwenDenieul {
+	margin: auto;
+	width: 40vw;
+	height: 22vw;
+}
+div.texte4 {
+	position: relative;
+	width: 50%;
+}
+p.texte4 {
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	margin: 0 1vw;
+	visibility: visible;
+	opacity: 0;
+	text-align: justify;
+	font-family: Georgia, serif;
+	font-size: 2.11vw;
+}
+div.texte4:hover img.texte4 {
+	transition-duration: 500ms;
+	webkit-filter: blur(4px);
+	filter: blur(4px);
+}
+div.texte4:hover p.texte4 {
+	transition-duration: 500ms;
+	visibility: visible;
+	opacity: 1;
+}
+img.commentaire {
+	border-radius: 25px;
+	width: 25vw;
+}
+p.littératube {
+	text-align: justify;
+	font-family: Georgia, serif;
+	font-size: 2.11vw;
+	margin: 0 2vw;
+	color: #00DAE1;
+}
+iframe.littératube {
+	margin: 0 5vw;
+	width: 40vw;
+	height: 22vw;
+}
+iframe.waziwashi {
+	width: 40vw;
+	height: 22vw;
+	margin: 0 30vw;
+}
+
+div.séance8 {
+	background-color: rgb(97, 74, 58, .9);
+}
+h1.séance8 {
+	color: #FA6A00;
+	margin: 0;
+}
+div.texte5 {
+	position: relative;
+	margin: 0 30vw 0 20vw;
+	width: 50%;
+}
+p.texte5 {
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	margin: 0 1vw;
+	visibility: visible;
+	opacity: 0;
+	text-align: justify;
+	font-family: Georgia, serif;
+	font-size: 2vw;
+}
+div.texte5:hover img.texte5 {
+	transition-duration: 500ms;
+	webkit-filter: blur(4px);
+	filter: blur(4px);
+}
+div.texte5:hover p.texte5 {
+	transition-duration: 500ms;
+	visibility: visible;
+	opacity: 1;
+}
+div.texte52 {
+	position: relative;
+	margin: 3vw 20vw 0 30vw;
+	width: 50%;
+}
+p.texte52 {
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	margin: 0 1vw;
+	visibility: visible;
+	opacity: 0;
+	text-align: justify;
+	font-family: Georgia, serif;
+	font-size: 2.2vw;
+}
+div.texte52:hover img.texte52 {
+	transition-duration: 500ms;
+	webkit-filter: blur(4px);
+	filter: blur(4px);
+}
+div.texte52:hover p.texte52 {
+	transition-duration: 500ms;
+	visibility: visible;
+	opacity: 1;
+}
+
+div.séance9 {
+	background-color: rgb(134, 84, 85, .9);
+}
+h1.séance9 {
+	color: #3FDB69;
+	margin: 0;
+}
+div.texte6 {
+	position: relative;
+	margin: 0 25vw;
+	width: 50%;
+}
+p.texte6 {
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	margin: 0 1vw;
+	visibility: visible;
+	opacity: 0;
+	text-align: justify;
+	font-family: Georgia, serif;
+	font-size: 2.3vw;
+}
+img.texte6 {
+	width: 50vw;
+	margin: 0;
+}
+div.texte6:hover img.texte6 {
+	transition-duration: 500ms;
+	webkit-filter: blur(4px);
+	filter: blur(4px);
+}
+div.texte6:hover p.texte6 {
+	transition-duration: 500ms;
+	visibility: visible;
+	opacity: 1;
+}
+
+div.séance10 {
+	background-color: rgb(63, 219, 105, .9);
+}
+h1.séance10 {
+	color: #865455;
+	margin: 0;
+}
+div.texte7 {
+	position: relative;
+	margin: 0 25vw;
+	width: 50%;
+}
+p.texte7 {
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	margin: 0 1vw;
+	visibility: visible;
+	opacity: 0;
+	text-align: justify;
+	font-family: Georgia, serif;
+	font-size: 2.1vw;
+}
+div.texte7:hover img.texte7 {
+	transition-duration: 500ms;
+	webkit-filter: blur(4px);
+	filter: blur(4px);
+}
+div.texte7:hover p.texte7 {
+	transition-duration: 500ms;
+	visibility: visible;
+	opacity: 1;
+}
